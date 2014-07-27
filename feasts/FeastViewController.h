@@ -11,6 +11,8 @@
 @interface FeastViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
 @property (weak, nonatomic) IBOutlet UITextView *description;
+@property (weak, nonatomic) IBOutlet UIScrollView *scroller;
+
 
 @property (nonatomic) NSString* iconStr;
 @property (nonatomic) NSString* descriptionStr;
