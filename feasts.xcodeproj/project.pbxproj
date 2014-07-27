@@ -15,13 +15,19 @@
 		8AA3912A1984CE670024E429 /* FeastsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA391291984CE670024E429 /* FeastsAppDelegate.m */; };
 		8AA3912D1984CE670024E429 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3912B1984CE670024E429 /* Main_iPhone.storyboard */; };
 		8AA391301984CE670024E429 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3912E1984CE670024E429 /* Main_iPad.storyboard */; };
-		8AA391331984CE670024E429 /* FeastsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA391321984CE670024E429 /* FeastsViewController.m */; };
 		8AA391351984CE670024E429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391341984CE670024E429 /* Images.xcassets */; };
 		8AA3913C1984CE670024E429 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3913B1984CE670024E429 /* XCTest.framework */; };
 		8AA3913D1984CE670024E429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA391191984CE670024E429 /* Foundation.framework */; };
 		8AA3913E1984CE670024E429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3911D1984CE670024E429 /* UIKit.framework */; };
 		8AA391461984CE670024E429 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391441984CE670024E429 /* InfoPlist.strings */; };
 		8AA391481984CE670024E429 /* feastsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA391471984CE670024E429 /* feastsTests.m */; };
+		8AA391561984D19D0024E429 /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391521984D19D0024E429 /* icon01.png */; };
+		8AA391571984D19D0024E429 /* icon01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391531984D19D0024E429 /* icon01@2x.png */; };
+		8AA391581984D19D0024E429 /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391541984D19D0024E429 /* icon02.png */; };
+		8AA391591984D19D0024E429 /* icon02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA391551984D19D0024E429 /* icon02@2x.png */; };
+		8AA3915D1984D1FF0024E429 /* feasts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AA3915A1984D1FF0024E429 /* feasts.plist */; };
+		8AA3915E1984D1FF0024E429 /* FeastsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA3915C1984D1FF0024E429 /* FeastsTableViewController.m */; };
+		8AA391611984D3450024E429 /* FeastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA391601984D3450024E429 /* FeastViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,21 @@
 		8AA391291984CE670024E429 /* FeastsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeastsAppDelegate.m; sourceTree = "<group>"; };
 		8AA3912C1984CE670024E429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		8AA3912F1984CE670024E429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8AA391311984CE670024E429 /* FeastsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeastsViewController.h; sourceTree = "<group>"; };
-		8AA391321984CE670024E429 /* FeastsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeastsViewController.m; sourceTree = "<group>"; };
 		8AA391341984CE670024E429 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA3913A1984CE670024E429 /* feastsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feastsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA3913B1984CE670024E429 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AA391431984CE670024E429 /* feastsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "feastsTests-Info.plist"; sourceTree = "<group>"; };
 		8AA391451984CE670024E429 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AA391471984CE670024E429 /* feastsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = feastsTests.m; sourceTree = "<group>"; };
+		8AA391521984D19D0024E429 /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		8AA391531984D19D0024E429 /* icon01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon01@2x.png"; sourceTree = "<group>"; };
+		8AA391541984D19D0024E429 /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		8AA391551984D19D0024E429 /* icon02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon02@2x.png"; sourceTree = "<group>"; };
+		8AA3915A1984D1FF0024E429 /* feasts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = feasts.plist; sourceTree = "<group>"; };
+		8AA3915B1984D1FF0024E429 /* FeastsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeastsTableViewController.h; sourceTree = "<group>"; };
+		8AA3915C1984D1FF0024E429 /* FeastsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeastsTableViewController.m; sourceTree = "<group>"; };
+		8AA3915F1984D3450024E429 /* FeastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeastViewController.h; sourceTree = "<group>"; };
+		8AA391601984D3450024E429 /* FeastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeastViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +97,7 @@
 		8AA3910D1984CE670024E429 = {
 			isa = PBXGroup;
 			children = (
+				8AA391511984D17C0024E429 /* Icons */,
 				8AA3911F1984CE670024E429 /* feasts */,
 				8AA391411984CE670024E429 /* feastsTests */,
 				8AA391181984CE670024E429 /* Frameworks */,
@@ -114,12 +128,15 @@
 		8AA3911F1984CE670024E429 /* feasts */ = {
 			isa = PBXGroup;
 			children = (
+				8AA3915F1984D3450024E429 /* FeastViewController.h */,
+				8AA391601984D3450024E429 /* FeastViewController.m */,
 				8AA391281984CE670024E429 /* FeastsAppDelegate.h */,
 				8AA391291984CE670024E429 /* FeastsAppDelegate.m */,
 				8AA3912B1984CE670024E429 /* Main_iPhone.storyboard */,
 				8AA3912E1984CE670024E429 /* Main_iPad.storyboard */,
-				8AA391311984CE670024E429 /* FeastsViewController.h */,
-				8AA391321984CE670024E429 /* FeastsViewController.m */,
+				8AA3915B1984D1FF0024E429 /* FeastsTableViewController.h */,
+				8AA3915C1984D1FF0024E429 /* FeastsTableViewController.m */,
+				8AA3915A1984D1FF0024E429 /* feasts.plist */,
 				8AA391341984CE670024E429 /* Images.xcassets */,
 				8AA391201984CE670024E429 /* Supporting Files */,
 			);
@@ -153,6 +170,17 @@
 				8AA391441984CE670024E429 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AA391511984D17C0024E429 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8AA391521984D19D0024E429 /* icon01.png */,
+				8AA391531984D19D0024E429 /* icon01@2x.png */,
+				8AA391541984D19D0024E429 /* icon02.png */,
+				8AA391551984D19D0024E429 /* icon02@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +231,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alexey Smirnov";
 				TargetAttributes = {
+					8AA391151984CE670024E429 = {
+						DevelopmentTeam = 3NQ697ND22;
+					};
 					8AA391391984CE670024E429 = {
 						TestTargetID = 8AA391151984CE670024E429;
 					};
@@ -235,7 +266,12 @@
 				8AA391301984CE670024E429 /* Main_iPad.storyboard in Resources */,
 				8AA391351984CE670024E429 /* Images.xcassets in Resources */,
 				8AA3912D1984CE670024E429 /* Main_iPhone.storyboard in Resources */,
+				8AA3915D1984D1FF0024E429 /* feasts.plist in Resources */,
+				8AA391581984D19D0024E429 /* icon02.png in Resources */,
 				8AA391241984CE670024E429 /* InfoPlist.strings in Resources */,
+				8AA391591984D19D0024E429 /* icon02@2x.png in Resources */,
+				8AA391571984D19D0024E429 /* icon01@2x.png in Resources */,
+				8AA391561984D19D0024E429 /* icon01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +292,8 @@
 			files = (
 				8AA3912A1984CE670024E429 /* FeastsAppDelegate.m in Sources */,
 				8AA391261984CE670024E429 /* main.m in Sources */,
-				8AA391331984CE670024E429 /* FeastsViewController.m in Sources */,
+				8AA391611984D3450024E429 /* FeastViewController.m in Sources */,
+				8AA3915E1984D1FF0024E429 /* FeastsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,9 +428,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "feasts/feasts-Prefix.pch";
 				INFOPLIST_FILE = "feasts/feasts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,9 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "feasts/feasts-Prefix.pch";
 				INFOPLIST_FILE = "feasts/feasts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

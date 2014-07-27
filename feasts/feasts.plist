@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Titles</key>
+	<array>
+		<string>聖母誕生節 </string>
+		<string>舉榮十字架節(光榮十字架節) </string>
+	</array>
+	<key>Subtitles</key>
+	<array>
+		<string>Nativity of the Theotokos</string>
+		<string>Elevation of the Precious Cross</string>
+	</array>
+	<key>Images</key>
+	<array>
+		<string>icon01.png</string>
+		<string>icon02.png</string>
+	</array>
+</dict>
+</plist>
