@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *description;
 @property (weak, nonatomic) IBOutlet UIScrollView *scroller;
 
-
+@property NSUInteger pageIndex;
 @property (nonatomic) NSString* iconStr;
 @property (nonatomic) NSString* descriptionStr;
 

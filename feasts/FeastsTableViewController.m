@@ -7,7 +7,7 @@
 //
 
 #import "FeastsTableViewController.h"
-#import "FeastViewController.h"
+#import "ViewController.h"
 
 @interface FeastsTableViewController ()
 
@@ -17,7 +17,6 @@
 
 NSArray *titles;
 NSArray *subtitles;
-NSArray *icons;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -36,7 +35,6 @@ NSArray *icons;
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     titles = [dict objectForKey:@"Titles"];
     subtitles = [dict objectForKey:@"Subtitles"];
-    icons = [dict objectForKey:@"Images"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -77,8 +75,8 @@ NSArray *icons;
 {
     if ([segue.identifier isEqualToString:@"Feast"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        FeastViewController *controller = segue.destinationViewController;
-        controller.iconStr = [icons objectAtIndex:indexPath.row];
+        ViewController *controller = segue.destinationViewController;
+        controller.feastIndex = indexPath.row;
     }
 }
 

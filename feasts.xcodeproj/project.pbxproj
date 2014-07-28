@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A9AB6EF19865E4A0037BEF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AB6EE19865E4A0037BEF2 /* ViewController.m */; };
 		8AA3911A1984CE670024E429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA391191984CE670024E429 /* Foundation.framework */; };
 		8AA3911C1984CE670024E429 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3911B1984CE670024E429 /* CoreGraphics.framework */; };
 		8AA3911E1984CE670024E429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3911D1984CE670024E429 /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A9AB6ED19865E4A0037BEF2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A9AB6EE19865E4A0037BEF2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA391161984CE670024E429 /* feasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA391191984CE670024E429 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AA3911B1984CE670024E429 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +141,8 @@
 				8AA3915C1984D1FF0024E429 /* FeastsTableViewController.m */,
 				8AA3915A1984D1FF0024E429 /* feasts.plist */,
 				8AA391341984CE670024E429 /* Images.xcassets */,
+				8A9AB6ED19865E4A0037BEF2 /* ViewController.h */,
+				8A9AB6EE19865E4A0037BEF2 /* ViewController.m */,
 				8AA391201984CE670024E429 /* Supporting Files */,
 			);
 			path = feasts;
@@ -294,6 +299,7 @@
 				8AA391261984CE670024E429 /* main.m in Sources */,
 				8AA391611984D3450024E429 /* FeastViewController.m in Sources */,
 				8AA3915E1984D1FF0024E429 /* FeastsTableViewController.m in Sources */,
+				8A9AB6EF19865E4A0037BEF2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +518,7 @@
 				8AA3914D1984CE670024E429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA3914E1984CE670024E429 /* Build configuration list for PBXNativeTarget "feastsTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				8AA391501984CE670024E429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
