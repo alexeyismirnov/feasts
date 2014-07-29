@@ -6,33 +6,33 @@
 	<array>
 		<string>聖母誕生節 </string>
 		<string>舉榮十字架節(光榮十字架節) </string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
+		<string>聖母進堂節</string>
+		<string>聖誕節(主降生節)</string>
+		<string>主顯節(主領洗節)</string>
+		<string>主進堂節(主進聖殿節)</string>
+		<string>聖母領報節</string>
+		<string>主進聖城節</string>
+		<string>復活節</string>
+		<string>主昇天節</string>
+		<string>五旬節(聖三一節)</string>
+		<string>主易聖容節</string>
+		<string>聖母安息節</string>
 	</array>
 	<key>Subtitles</key>
 	<array>
 		<string>Nativity of the Theotokos</string>
 		<string>Elevation of the Precious Cross</string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
+		<string>Entrance of the Theotokos into the TempleEntrance of the Theotokos into the TempleEntrance of the Theotokos into the TempleEntrance of the Theotokos into the Temple</string>
+		<string>Nativity of Our Lord Jesus Christ</string>
+		<string>Theophany of Our Lord Jesus Christ</string>
+		<string>Meeting of Our Lord Jesus Christ into the Temple</string>
+		<string>Annunciation of the Theotokos</string>
+		<string>Entry of Our Lord Jesus Christ into Jerusalem</string>
+		<string>Great and Holy Pascha, Easter</string>
+		<string>Ascension of Our Lord Jesus Christ</string>
+		<string>Pentecost</string>
+		<string>Transfiguration of Our Lord Jesus Christ</string>
+		<string>Dormition of the Theotokos</string>
 	</array>
 </dict>
 </plist>
