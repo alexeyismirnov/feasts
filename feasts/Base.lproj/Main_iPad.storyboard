@@ -5,33 +5,33 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Feasts Table View Controller - Root View Controller-->
+        <!--Feasts Table View Controller - Feasts-->
         <scene sceneID="ReO-nL-oHs">
             <objects>
-                <tableViewController id="Bh6-JV-Zu4" customClass="FeastsTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ids-sL-n5Y">
+                <tableViewController title="Feasts" id="Bh6-JV-Zu4" customClass="FeastsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="63" sectionHeaderHeight="22" sectionFooterHeight="22" id="ids-sL-n5Y">
                         <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeastsCell" textLabel="C9H-yE-fYA" detailTextLabel="CZb-b9-j2M" style="IBUITableViewCellStyleSubtitle" id="4Dx-wB-ync">
-                                <rect key="frame" x="0.0" y="22" width="768" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeastsCell" textLabel="C9H-yE-fYA" detailTextLabel="CZb-b9-j2M" rowHeight="63" style="IBUITableViewCellStyleSubtitle" id="4Dx-wB-ync">
+                                <rect key="frame" x="0.0" y="22" width="768" height="63"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Dx-wB-ync" id="RLk-QW-xhx">
-                                    <rect key="frame" x="0.0" y="0.0" width="735" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="735" height="62"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C9H-yE-fYA">
-                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <rect key="frame" x="15" y="6" width="41" height="27"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CZb-b9-j2M">
-                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                            <rect key="frame" x="15" y="33" width="67" height="24"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -47,13 +47,13 @@
                             <outlet property="delegate" destination="Bh6-JV-Zu4" id="JQ5-K8-EFQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Z8i-WE-bOf"/>
+                    <navigationItem key="navigationItem" title="Feasts" id="Z8i-WE-bOf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUD-gf-a4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="351"/>
+            <point key="canvasLocation" x="1691" y="347"/>
         </scene>
-        <!--Feast View Controller-->
+        <!--Feast View Controller - Title-->
         <scene sceneID="0xi-Q1-YbE">
             <objects>
                 <viewController storyboardIdentifier="PageContentController" id="fGx-IP-1Lq" customClass="FeastViewController" sceneMemberID="viewController">
@@ -123,7 +123,7 @@
                             <constraint firstItem="EaX-8H-W1Z" firstAttribute="top" secondItem="B9C-iz-oJQ" secondAttribute="bottom" constant="20" id="puV-e3-wOq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="682-p9-xPG"/>
+                    <navigationItem key="navigationItem" title="Title" id="D0i-yE-Gf0"/>
                     <connections>
                         <outlet property="description" destination="BJk-qd-S1V" id="mPj-Xb-9kf"/>
                         <outlet property="icon" destination="Fla-ra-O6Y" id="a1d-vj-2cg"/>
@@ -134,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="3872" y="1577"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Title-->
         <scene sceneID="Eu3-xY-LuJ">
             <objects>
                 <viewController id="E7N-2y-HyE" customClass="ViewController" sceneMemberID="viewController">
@@ -147,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NKg-Gn-Qe9"/>
+                    <navigationItem key="navigationItem" title="Title" id="rZX-Bm-nqI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sF9-53-tMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

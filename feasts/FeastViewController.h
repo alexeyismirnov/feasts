@@ -15,6 +15,8 @@
 
 @property NSUInteger pageIndex;
 @property (nonatomic) NSString* iconStr;
-@property (nonatomic) NSString* descriptionStr;
+@property (nonatomic) UINavigationItem* navItem;
+@property (nonatomic) NSString* titleText;
+@property (nonatomic) NSAttributedString* descriptionStr;
 
 @end

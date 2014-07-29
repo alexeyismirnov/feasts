@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A9AB6EF19865E4A0037BEF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AB6EE19865E4A0037BEF2 /* ViewController.m */; };
+		8A9ED88819877128006FB5B9 /* feast01.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A9ED88719877128006FB5B9 /* feast01.rtf */; };
+		8A9ED88A19877C5C006FB5B9 /* feast02.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A9ED88919877C5C006FB5B9 /* feast02.rtf */; };
 		8AA3911A1984CE670024E429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA391191984CE670024E429 /* Foundation.framework */; };
 		8AA3911C1984CE670024E429 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3911B1984CE670024E429 /* CoreGraphics.framework */; };
 		8AA3911E1984CE670024E429 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3911D1984CE670024E429 /* UIKit.framework */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		8A9AB6ED19865E4A0037BEF2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A9AB6EE19865E4A0037BEF2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A9ED88719877128006FB5B9 /* feast01.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = feast01.rtf; sourceTree = "<group>"; };
+		8A9ED88919877C5C006FB5B9 /* feast02.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = feast02.rtf; sourceTree = "<group>"; };
 		8AA391161984CE670024E429 /* feasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA391191984CE670024E429 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AA3911B1984CE670024E429 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,9 +101,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A9ED88619877102006FB5B9 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				8A9ED88719877128006FB5B9 /* feast01.rtf */,
+				8A9ED88919877C5C006FB5B9 /* feast02.rtf */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
 		8AA3910D1984CE670024E429 = {
 			isa = PBXGroup;
 			children = (
+				8A9ED88619877102006FB5B9 /* Text */,
 				8AA391511984D17C0024E429 /* Icons */,
 				8AA3911F1984CE670024E429 /* feasts */,
 				8AA391411984CE670024E429 /* feastsTests */,
@@ -269,12 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA391301984CE670024E429 /* Main_iPad.storyboard in Resources */,
+				8A9ED88A19877C5C006FB5B9 /* feast02.rtf in Resources */,
 				8AA391351984CE670024E429 /* Images.xcassets in Resources */,
 				8AA3912D1984CE670024E429 /* Main_iPhone.storyboard in Resources */,
 				8AA3915D1984D1FF0024E429 /* feasts.plist in Resources */,
 				8AA391581984D19D0024E429 /* icon02.png in Resources */,
 				8AA391241984CE670024E429 /* InfoPlist.strings in Resources */,
 				8AA391591984D19D0024E429 /* icon02@2x.png in Resources */,
+				8A9ED88819877128006FB5B9 /* feast01.rtf in Resources */,
 				8AA391571984D19D0024E429 /* icon01@2x.png in Resources */,
 				8AA391561984D19D0024E429 /* icon01.png in Resources */,
 			);

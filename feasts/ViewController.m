@@ -42,14 +42,14 @@ NSArray *icons;
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
     self.pageViewController.dataSource = self;
     
-    FeastViewController *startingViewController = [self viewControllerAtIndex:0];
+    FeastViewController *startingViewController = [self viewControllerAtIndex:self.feastIndex];
+    
     NSArray *viewControllers = @[startingViewController];
     [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
 
     [self addChildViewController:_pageViewController];
     [self.view addSubview:_pageViewController.view];
     [self.pageViewController didMoveToParentViewController:self];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,11 +92,19 @@ NSArray *icons;
     if (([titles count] == 0) || (index >= [titles count])) {
         return nil;
     }
-    
+
     // Create a new view controller and pass suitable data.
     FeastViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"PageContentController"];
-    controller.iconStr = [icons objectAtIndex:index];
+
+    NSURL *path = [[NSBundle mainBundle]
+                   URLForResource:[[NSString alloc] initWithFormat:@"feast%02d", index+1]
+                   withExtension:@"rtf"];
+    
+    controller.descriptionStr = [[NSAttributedString alloc]   initWithFileURL:path options:@{NSDocumentTypeDocumentAttribute:NSRTFTextDocumentType} documentAttributes:nil error:nil];
+    controller.iconStr = [[NSString alloc] initWithFormat:@"icon%02d.png", index+1];
+    controller.titleText = [titles objectAtIndex:index];
     controller.pageIndex = index;
+    controller.navItem = self.navigationItem;
     
     return controller;
 }
@@ -108,7 +116,7 @@ NSArray *icons;
 
 - (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController
 {
-    return 0;
+    return self.feastIndex;
 }
 
 /*
