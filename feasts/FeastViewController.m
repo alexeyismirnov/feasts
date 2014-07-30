@@ -7,6 +7,7 @@
 //
 
 #import "FeastViewController.h"
+#import "FeastsShowIconController.h"
 
 @interface FeastViewController ()
 
@@ -49,15 +50,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+- (IBAction)showIcon:(UITapGestureRecognizer *)sender {
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    FeastsShowIconController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"ShowIconController"];
+    
+    controller.iconStr = self.iconStr;
+    [self presentViewController:controller animated:true completion:nil];
 }
-*/
+
 
 @end

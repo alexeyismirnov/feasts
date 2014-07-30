@@ -16,8 +16,6 @@
 
 NSArray *titles;
 NSArray *subtitles;
-NSArray *icons;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,7 +34,6 @@ NSArray *icons;
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     titles = [dict objectForKey:@"Titles"];
     subtitles = [dict objectForKey:@"Subtitles"];
-    icons = [dict objectForKey:@"Images"];
     
     // Create page view controller
     self.pageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
@@ -97,11 +94,11 @@ NSArray *icons;
     FeastViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"PageContentController"];
 
     NSURL *path = [[NSBundle mainBundle]
-                   URLForResource:[[NSString alloc] initWithFormat:@"feast%02d", index+1]
+                   URLForResource:[[NSString alloc] initWithFormat:@"feast%02u", index+1]
                    withExtension:@"rtf"];
     
     controller.descriptionStr = [[NSAttributedString alloc]   initWithFileURL:path options:@{NSDocumentTypeDocumentAttribute:NSRTFTextDocumentType} documentAttributes:nil error:nil];
-    controller.iconStr = [[NSString alloc] initWithFormat:@"icon%02d.png", index+1];
+    controller.iconStr = [[NSString alloc] initWithFormat:@"icon%02u.png", index+1];
     controller.titleText = [titles objectAtIndex:index];
     controller.pageIndex = index;
     controller.navItem = self.navigationItem;

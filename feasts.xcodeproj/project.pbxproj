@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1B89E219889FF600DFD6C0 /* FeastsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B89E119889FF600DFD6C0 /* FeastsCollectionViewController.m */; };
+		8A1B89E51988FD1400DFD6C0 /* FeastsShowIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B89E41988FD1400DFD6C0 /* FeastsShowIconController.m */; };
+		8A1B89E81989079600DFD6C0 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B89E61989079600DFD6C0 /* grid.png */; };
+		8A1B89E91989079600DFD6C0 /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B89E71989079600DFD6C0 /* grid@2x.png */; };
+		8A1B89EC19890CCB00DFD6C0 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B89EA19890CCB00DFD6C0 /* list.png */; };
+		8A1B89ED19890CCB00DFD6C0 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B89EB19890CCB00DFD6C0 /* list@2x.png */; };
 		8A9AB6EF19865E4A0037BEF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AB6EE19865E4A0037BEF2 /* ViewController.m */; };
 		8A9ED88819877128006FB5B9 /* feast01.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A9ED88719877128006FB5B9 /* feast01.rtf */; };
 		8A9ED88A19877C5C006FB5B9 /* feast02.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A9ED88919877C5C006FB5B9 /* feast02.rtf */; };
@@ -77,6 +83,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1B89E019889FF600DFD6C0 /* FeastsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeastsCollectionViewController.h; sourceTree = "<group>"; };
+		8A1B89E119889FF600DFD6C0 /* FeastsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeastsCollectionViewController.m; sourceTree = "<group>"; };
+		8A1B89E31988FD1400DFD6C0 /* FeastsShowIconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeastsShowIconController.h; sourceTree = "<group>"; };
+		8A1B89E41988FD1400DFD6C0 /* FeastsShowIconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeastsShowIconController.m; sourceTree = "<group>"; };
+		8A1B89E61989079600DFD6C0 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		8A1B89E71989079600DFD6C0 /* grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
+		8A1B89EA19890CCB00DFD6C0 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		8A1B89EB19890CCB00DFD6C0 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
 		8A9AB6ED19865E4A0037BEF2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A9AB6EE19865E4A0037BEF2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A9ED88719877128006FB5B9 /* feast01.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = feast01.rtf; sourceTree = "<group>"; };
@@ -234,6 +248,10 @@
 				8AA391341984CE670024E429 /* Images.xcassets */,
 				8A9AB6ED19865E4A0037BEF2 /* ViewController.h */,
 				8A9AB6EE19865E4A0037BEF2 /* ViewController.m */,
+				8A1B89E019889FF600DFD6C0 /* FeastsCollectionViewController.h */,
+				8A1B89E119889FF600DFD6C0 /* FeastsCollectionViewController.m */,
+				8A1B89E31988FD1400DFD6C0 /* FeastsShowIconController.h */,
+				8A1B89E41988FD1400DFD6C0 /* FeastsShowIconController.m */,
 				8AA391201984CE670024E429 /* Supporting Files */,
 			);
 			path = feasts;
@@ -271,6 +289,10 @@
 		8AA391511984D17C0024E429 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				8A1B89EA19890CCB00DFD6C0 /* list.png */,
+				8A1B89EB19890CCB00DFD6C0 /* list@2x.png */,
+				8A1B89E61989079600DFD6C0 /* grid.png */,
+				8A1B89E71989079600DFD6C0 /* grid@2x.png */,
 				8A9ED8A11987A2F6006FB5B9 /* icon03.png */,
 				8A9ED8A21987A2F6006FB5B9 /* icon03@2x.png */,
 				8A9ED8A31987A2F6006FB5B9 /* icon04.png */,
@@ -381,9 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1B89E91989079600DFD6C0 /* grid@2x.png in Resources */,
 				8A9ED8C41987A2F6006FB5B9 /* icon09@2x.png in Resources */,
 				8AA391301984CE670024E429 /* Main_iPad.storyboard in Resources */,
 				8A9ED8BE1987A2F6006FB5B9 /* icon06@2x.png in Resources */,
+				8A1B89ED19890CCB00DFD6C0 /* list@2x.png in Resources */,
 				8A9ED8BB1987A2F6006FB5B9 /* icon05.png in Resources */,
 				8A9ED88A19877C5C006FB5B9 /* feast02.rtf in Resources */,
 				8A9ED8A01987983A006FB5B9 /* feast13.rtf in Resources */,
@@ -392,6 +416,7 @@
 				8A9ED8BF1987A2F6006FB5B9 /* icon07.png in Resources */,
 				8A9ED89219879737006FB5B9 /* feast06.rtf in Resources */,
 				8AA391351984CE670024E429 /* Images.xcassets in Resources */,
+				8A1B89E81989079600DFD6C0 /* grid.png in Resources */,
 				8A9ED8BA1987A2F6006FB5B9 /* icon04@2x.png in Resources */,
 				8A9ED8B71987A2F6006FB5B9 /* icon03.png in Resources */,
 				8A9ED8C81987A2F6006FB5B9 /* icon11@2x.png in Resources */,
@@ -418,6 +443,7 @@
 				8A9ED88819877128006FB5B9 /* feast01.rtf in Resources */,
 				8AA391571984D19D0024E429 /* icon01@2x.png in Resources */,
 				8A9ED8C91987A2F6006FB5B9 /* icon12.png in Resources */,
+				8A1B89EC19890CCB00DFD6C0 /* list.png in Resources */,
 				8A9ED8C01987A2F6006FB5B9 /* icon07@2x.png in Resources */,
 				8AA391561984D19D0024E429 /* icon01.png in Resources */,
 				8A9ED88C1987964E006FB5B9 /* feast03.rtf in Resources */,
@@ -445,7 +471,9 @@
 			files = (
 				8AA3912A1984CE670024E429 /* FeastsAppDelegate.m in Sources */,
 				8AA391261984CE670024E429 /* main.m in Sources */,
+				8A1B89E219889FF600DFD6C0 /* FeastsCollectionViewController.m in Sources */,
 				8AA391611984D3450024E429 /* FeastViewController.m in Sources */,
+				8A1B89E51988FD1400DFD6C0 /* FeastsShowIconController.m in Sources */,
 				8AA3915E1984D1FF0024E429 /* FeastsTableViewController.m in Sources */,
 				8A9AB6EF19865E4A0037BEF2 /* ViewController.m in Sources */,
 			);
