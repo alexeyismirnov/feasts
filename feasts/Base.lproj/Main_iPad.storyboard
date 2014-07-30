@@ -69,8 +69,8 @@
                                 <rect key="frame" x="20" y="84" width="728" height="920"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleAspectFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfK-wm-WCr" userLabel="Container View">
-                                        <rect key="frame" x="34" y="0.0" width="660" height="613"/>
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfK-wm-WCr" userLabel="Container View">
+                                        <rect key="frame" x="14" y="0.0" width="700" height="570"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fla-ra-O6Y">
@@ -82,23 +82,23 @@
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJk-qd-S1V">
-                                                <rect key="frame" x="20" y="383" width="544" height="210"/>
+                                                <rect key="frame" x="20" y="383" width="650" height="167"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="1" green="0.91571854551579335" blue="0.56995346346413567" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="544" id="pPr-Rz-JrE"/>
+                                                    <constraint firstAttribute="width" constant="650" id="pPr-Rz-JrE"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.25760747704612885" green="1" blue="0.07256741379385212" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.98187780424756466" blue="0.79755805225963006" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="BJk-qd-S1V" secondAttribute="bottom" constant="20" symbolic="YES" id="IXT-Mz-PfC"/>
                                             <constraint firstItem="Fla-ra-O6Y" firstAttribute="leading" secondItem="nfK-wm-WCr" secondAttribute="leading" constant="20" id="Sfy-GQ-92i"/>
                                             <constraint firstItem="BJk-qd-S1V" firstAttribute="top" secondItem="Fla-ra-O6Y" secondAttribute="bottom" constant="8" symbolic="YES" id="Tla-4O-IGI"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="660" id="aav-Sk-z8j"/>
+                                            <constraint firstAttribute="width" constant="700" id="aav-Sk-z8j"/>
                                             <constraint firstAttribute="trailing" secondItem="Fla-ra-O6Y" secondAttribute="trailing" constant="20" id="eT4-S0-9dH"/>
                                             <constraint firstItem="BJk-qd-S1V" firstAttribute="top" secondItem="Fla-ra-O6Y" secondAttribute="bottom" constant="8" symbolic="YES" id="ipW-fq-Gxd"/>
                                             <constraint firstAttribute="trailing" secondItem="BJk-qd-S1V" secondAttribute="trailing" constant="20" symbolic="YES" id="m5B-74-MVM"/>
@@ -107,7 +107,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.98187780420000004" blue="0.79755805229999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="nfK-wm-WCr" firstAttribute="top" secondItem="EaX-8H-W1Z" secondAttribute="top" id="S4q-he-FO1"/>
                                     <constraint firstAttribute="bottom" secondItem="nfK-wm-WCr" secondAttribute="bottom" id="Xrx-kc-DfX"/>
@@ -115,12 +115,12 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.98187780420000004" blue="0.79755805229999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="EaX-8H-W1Z" secondAttribute="trailing" constant="20" id="5Mt-5x-Lyr"/>
-                            <constraint firstItem="dQq-P7-wUw" firstAttribute="top" secondItem="EaX-8H-W1Z" secondAttribute="bottom" constant="20" id="BQq-cV-gbb"/>
+                            <constraint firstItem="dQq-P7-wUw" firstAttribute="top" secondItem="EaX-8H-W1Z" secondAttribute="bottom" constant="20" symbolic="YES" id="BQq-cV-gbb"/>
                             <constraint firstItem="EaX-8H-W1Z" firstAttribute="leading" secondItem="LHL-DE-7Bt" secondAttribute="leading" constant="20" id="Zxp-KS-2kk"/>
-                            <constraint firstItem="EaX-8H-W1Z" firstAttribute="top" secondItem="B9C-iz-oJQ" secondAttribute="bottom" constant="20" id="puV-e3-wOq"/>
+                            <constraint firstItem="EaX-8H-W1Z" firstAttribute="top" secondItem="B9C-iz-oJQ" secondAttribute="bottom" constant="20" symbolic="YES" id="puV-e3-wOq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="D0i-yE-Gf0"/>
