@@ -118,7 +118,7 @@ NSArray *subtitles;
             if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
                 fontSize = 18;
             } else {
-                fontSize = 36;
+                fontSize = 32;
             }
             UIFont *newFont = [oldFont fontWithSize:fontSize];
             [res removeAttribute:NSFontAttributeName range:range];
