@@ -52,7 +52,7 @@
     static NSString *identifier = @"Cell";
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
-    
+        
     UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
     recipeImageView.image = [UIImage imageNamed: [[NSString alloc] initWithFormat:@"icon%02d.png", indexPath.row+1] ];
     
@@ -73,7 +73,7 @@
 /*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+// In a storyboard-based application, you wilften want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].

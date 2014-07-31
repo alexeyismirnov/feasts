@@ -24,9 +24,15 @@
     return self;
 }
 
+-(void)goBack {
+    NSLog(@"qqq");
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 -(void)viewDidAppear:(BOOL)animated
 {
     self.navItem.title = self.titleText;
+    
 }
 
 - (void)viewDidLoad
@@ -51,7 +57,7 @@
 }
 
 - (IBAction)showIcon:(UITapGestureRecognizer *)sender {
-
+    
     FeastsShowIconController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"ShowIconController"];
     
     controller.iconStr = self.iconStr;

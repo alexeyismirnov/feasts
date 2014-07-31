@@ -47,13 +47,13 @@
                             <outlet property="delegate" destination="Bh6-JV-Zu4" id="JQ5-K8-EFQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Feasts" id="Z8i-WE-bOf"/>
+                    <navigationItem key="navigationItem" title="東正教主要節日" id="Z8i-WE-bOf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUD-gf-a4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2747" y="403"/>
         </scene>
-        <!--Feasts Collection View Controller - Feasts-->
+        <!--Feasts Collection View Controller - 東正教主要節日-->
         <scene sceneID="M8W-Vj-vjJ">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="bsl-tl-q0C" customClass="FeastsCollectionViewController" sceneMemberID="viewController">
@@ -93,7 +93,7 @@
                             <outlet property="delegate" destination="bsl-tl-q0C" id="myg-Ef-WMD"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="Feasts" id="egf-TQ-qaE"/>
+                    <navigationItem key="navigationItem" title="東正教主要節日" id="egf-TQ-qaE"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t69-fn-pta" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,7 +177,6 @@
                     <connections>
                         <outlet property="description" destination="BJk-qd-S1V" id="mPj-Xb-9kf"/>
                         <outlet property="icon" destination="Fla-ra-O6Y" id="a1d-vj-2cg"/>
-                        <outlet property="scroller" destination="EaX-8H-W1Z" id="z1U-ud-zFr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDP-BW-hDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -220,9 +219,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGk-aS-RbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5969" y="1574"/>
+            <point key="canvasLocation" x="4933" y="1642"/>
         </scene>
-        <!--View Controller - Title-->
+        <!--View Controller - 東正教主要節日-->
         <scene sceneID="Eu3-xY-LuJ">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="E7N-2y-HyE" customClass="ViewController" sceneMemberID="viewController">
@@ -235,7 +234,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="rZX-Bm-nqI"/>
+                    <navigationItem key="navigationItem" title="東正教主要節日" id="rZX-Bm-nqI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sF9-53-tMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -319,6 +318,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Gcn-00-KAm"/>
+        <segue reference="tZX-iT-n1K"/>
     </inferredMetricsTieBreakers>
 </document>

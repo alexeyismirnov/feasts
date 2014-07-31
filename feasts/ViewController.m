@@ -26,10 +26,19 @@ NSArray *subtitles;
     return self;
 }
 
+- (IBAction)goBack:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"后退" style:UIBarButtonItemStyleBordered target:self action:@selector(goBack:)];
+    
+    self.navigationItem.leftBarButtonItem = backButton;
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"feasts" ofType:@"plist"];
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     titles = [dict objectForKey:@"Titles"];
@@ -97,7 +106,29 @@ NSArray *subtitles;
                    URLForResource:[[NSString alloc] initWithFormat:@"feast%02u", index+1]
                    withExtension:@"rtf"];
     
-    controller.descriptionStr = [[NSAttributedString alloc]   initWithFileURL:path options:@{NSDocumentTypeDocumentAttribute:NSRTFTextDocumentType} documentAttributes:nil error:nil];
+    NSMutableAttributedString *res = [[NSMutableAttributedString alloc]   initWithFileURL:path options:@{NSDocumentTypeDocumentAttribute:NSRTFTextDocumentType} documentAttributes:nil error:nil];
+    
+    [res beginEditing];
+    
+    [res enumerateAttribute:NSFontAttributeName inRange:NSMakeRange(0, res.length) options:0 usingBlock:^(id value, NSRange range, BOOL *stop) {
+        if (value) {
+            UIFont *oldFont = (UIFont *)value;
+            
+            int fontSize;
+            if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+                fontSize = 18;
+            } else {
+                fontSize = 36;
+            }
+            UIFont *newFont = [oldFont fontWithSize:fontSize];
+            [res removeAttribute:NSFontAttributeName range:range];
+            [res addAttribute:NSFontAttributeName value:newFont range:range];
+        }
+    }];
+ 
+    [res endEditing];
+    
+    controller.descriptionStr = res;
     controller.iconStr = [[NSString alloc] initWithFormat:@"icon%02u.png", index+1];
     controller.titleText = [titles objectAtIndex:index];
     controller.pageIndex = index;
@@ -116,15 +147,5 @@ NSArray *subtitles;
     return self.feastIndex;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
