@@ -10,7 +10,7 @@
 
 @interface FeastViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
-@property (weak, nonatomic) IBOutlet UITextView *description;
+@property (weak, nonatomic) IBOutlet UITextView *descr;
 
 @property NSUInteger pageIndex;
 @property (nonatomic) NSString* iconStr;

@@ -34,14 +34,13 @@
     [super viewDidLoad];
 
     self.icon.image = [UIImage imageNamed:self.iconStr];
-    self.description.attributedText = self.descriptionStr;
+    self.descr.attributedText = self.descriptionStr;
 
-    CGFloat fixedWidth = self.description.frame.size.width;
-    CGSize newSize = [self.description sizeThatFits:CGSizeMake(fixedWidth, MAXFLOAT)];
-    CGRect newFrame = self.description.frame;
+    CGFloat fixedWidth = self.descr.frame.size.width;
+    CGSize newSize = [self.descr sizeThatFits:CGSizeMake(fixedWidth, MAXFLOAT)];
+    CGRect newFrame = self.descr.frame;
     newFrame.size = CGSizeMake(fmaxf(newSize.width, fixedWidth), newSize.height);
-    self.description.frame = newFrame;
-    
+    self.descr.frame = newFrame;
 }
 
 - (void)didReceiveMemoryWarning

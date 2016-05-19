@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2vU-Ps-9Ds">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2vU-Ps-9Ds">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Feasts Table View Controller - Feasts-->
+        <!--Feasts-->
         <scene sceneID="ReO-nL-oHs">
             <objects>
                 <tableViewController title="Feasts" id="Bh6-JV-Zu4" customClass="FeastsTableViewController" sceneMemberID="viewController">
@@ -18,18 +18,18 @@
                                 <rect key="frame" x="0.0" y="22" width="768" height="63"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Dx-wB-ync" id="RLk-QW-xhx">
-                                    <rect key="frame" x="0.0" y="0.0" width="735" height="62"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="682" height="62"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C9H-yE-fYA">
-                                            <rect key="frame" x="15" y="6" width="41" height="27"/>
+                                            <rect key="frame" x="68" y="6" width="43" height="27"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CZb-b9-j2M">
-                                            <rect key="frame" x="15" y="33" width="67" height="24"/>
+                                            <rect key="frame" x="68" y="33" width="69" height="24"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -53,7 +53,7 @@
             </objects>
             <point key="canvasLocation" x="2747" y="403"/>
         </scene>
-        <!--Feasts Collection View Controller - 東正教主要節日-->
+        <!--東正教主要節日-->
         <scene sceneID="M8W-Vj-vjJ">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="bsl-tl-q0C" customClass="FeastsCollectionViewController" sceneMemberID="viewController">
@@ -77,7 +77,6 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQH-aO-XZg">
                                             <rect key="frame" x="-1" y="-1" width="250" height="250"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -99,7 +98,7 @@
             </objects>
             <point key="canvasLocation" x="2773" y="1735"/>
         </scene>
-        <!--Feast View Controller - Title-->
+        <!--Title-->
         <scene sceneID="0xi-Q1-YbE">
             <objects>
                 <viewController storyboardIdentifier="PageContentController" automaticallyAdjustsScrollViewInsets="NO" id="fGx-IP-1Lq" customClass="FeastViewController" sceneMemberID="viewController">
@@ -113,15 +112,12 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EaX-8H-W1Z">
                                 <rect key="frame" x="20" y="84" width="728" height="920"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfK-wm-WCr" userLabel="Container View">
                                         <rect key="frame" x="14" y="0.0" width="700" height="570"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fla-ra-O6Y">
                                                 <rect key="frame" x="20" y="20" width="403" height="355"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="355" id="Z9a-fI-cyP"/>
@@ -133,7 +129,6 @@
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJk-qd-S1V">
                                                 <rect key="frame" x="20" y="383" width="650" height="167"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.91571854551579335" blue="0.56995346346413567" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="650" id="pPr-Rz-JrE"/>
@@ -168,14 +163,14 @@
                         <color key="backgroundColor" red="1" green="0.98187780420000004" blue="0.79755805229999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="EaX-8H-W1Z" secondAttribute="trailing" constant="20" id="5Mt-5x-Lyr"/>
-                            <constraint firstItem="dQq-P7-wUw" firstAttribute="top" secondItem="EaX-8H-W1Z" secondAttribute="bottom" constant="20" symbolic="YES" id="BQq-cV-gbb"/>
+                            <constraint firstItem="dQq-P7-wUw" firstAttribute="top" secondItem="EaX-8H-W1Z" secondAttribute="bottom" constant="8" symbolic="YES" id="BQq-cV-gbb"/>
                             <constraint firstItem="EaX-8H-W1Z" firstAttribute="leading" secondItem="LHL-DE-7Bt" secondAttribute="leading" constant="20" id="Zxp-KS-2kk"/>
-                            <constraint firstItem="EaX-8H-W1Z" firstAttribute="top" secondItem="B9C-iz-oJQ" secondAttribute="bottom" constant="20" symbolic="YES" id="puV-e3-wOq"/>
+                            <constraint firstItem="EaX-8H-W1Z" firstAttribute="top" secondItem="B9C-iz-oJQ" secondAttribute="bottom" constant="8" symbolic="YES" id="puV-e3-wOq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="D0i-yE-Gf0"/>
                     <connections>
-                        <outlet property="description" destination="BJk-qd-S1V" id="mPj-Xb-9kf"/>
+                        <outlet property="descr" destination="BJk-qd-S1V" id="NXw-Pw-o1I"/>
                         <outlet property="icon" destination="Fla-ra-O6Y" id="a1d-vj-2cg"/>
                     </connections>
                 </viewController>
@@ -202,7 +197,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gpk-Am-9dH">
                                 <rect key="frame" x="131" y="213" width="518" height="366"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -221,7 +215,7 @@
             </objects>
             <point key="canvasLocation" x="4933" y="1642"/>
         </scene>
-        <!--View Controller - 東正教主要節日-->
+        <!--東正教主要節日-->
         <scene sceneID="Eu3-xY-LuJ">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="E7N-2y-HyE" customClass="ViewController" sceneMemberID="viewController">
@@ -240,7 +234,7 @@
             </objects>
             <point key="canvasLocation" x="4016" y="403"/>
         </scene>
-        <!--Page View Controller - Title-->
+        <!--Title-->
         <scene sceneID="kg5-DB-uam">
             <objects>
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="M4g-cx-PQH" sceneMemberID="viewController">
@@ -312,11 +306,6 @@
         <image name="grid.png" width="30" height="40"/>
         <image name="list.png" width="30" height="40"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
-    </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="tZX-iT-n1K"/>
     </inferredMetricsTieBreakers>
